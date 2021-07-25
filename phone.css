@@ -1,0 +1,15 @@
+.form{
+    padding: 15px 10px;
+    width: 100vw;
+    height: 100vh;
+    border-radius: 0%;
+}
+
+.form label{
+    font-size: 5vw;
+}
+
+#note, #result, #time-input label{
+    font-size: 5vw;
+}
+

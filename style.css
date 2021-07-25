@@ -1,0 +1,98 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(66deg, #c0c0aa, #1cefff) no-repeat;
+}
+
+.form{
+    display: flex;
+    padding: 20px 30px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    width: fit-content;
+    background: linear-gradient(66deg, #9CECFB, #65C7F7, #0052D4);
+}
+
+.form label, .form input{
+    font-size: 15px;
+    margin: 0px;
+}
+
+.form label{
+    color: white;
+}
+
+.form input{
+    height: 20px;
+    width: 150px;
+    border-radius: 12px;
+}
+
+.form input::placeholder, .form input{
+    font-size: 10px;
+}
+
+.btn{
+    margin: 5px;
+    margin-top: 15px;
+    width: 100px;
+    height: 25px;
+    border-radius: 12px;
+}
+
+.btn:hover{
+    background-color: rgb(238, 167, 167);
+}
+
+#result-container{
+    display: flex;
+    margin: 0%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#result{
+    text-align: center;
+    line-height: 30px;
+    color: rgb(243, 230, 230);
+    font-size: 15px;
+    font-weight: 600;
+    display: none;
+}
+
+#note{
+    text-align: center;
+    display: none;
+    font-size: 15px;
+    color: rgb(0, 0, 255);
+    margin: 5px;
+}
+
+#time-input{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#time-input label, #time-input input{
+    font-size: 15px;
+    margin: 0%;
+}
+
+#time-input input::placeholder{
+    font-size: 10px;
+    margin: 0%;
+}
+
+#time-input input{
+    font-size: 10px;
+}
